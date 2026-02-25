@@ -1,0 +1,55 @@
+body{
+background: #of172a;
+font-family: Segoe UI;
+}
+
+.featured{
+background: linear-gradient(135deg, #6366f1, #ec4899);
+padding: 60px;
+border-radius: 20px;
+color: white;
+}
+
+/* Vlog Cards */
+.vlog-card{
+background: #1e293b;
+padding: 15px;
+border-radius: 15px;
+color: white;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+transition: 0.4s;
+}
+
+.vlog-card:hover{
+transform: translateY(-12px);
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+/*Video Thumbnail */
+.video-box{
+position: relative;
+overflow: hidden;
+border-radius: 12px;
+}
+
+/*Play Button */
+.play-btn{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: rgba(0, 0, 0, 0.6);
+color: white;
+font-size: 28px;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+transition: 0.3s;
+}
+
+.video-box:hover .play-btn{
+background: red;
+transform: translate(-50%, -50%) scale(1.2);
+}
